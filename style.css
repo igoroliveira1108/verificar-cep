@@ -1,0 +1,221 @@
+/* Para celular - no meu caso Iphone 7.*/
+@media only screen and (max-width: 600px) and (min-width: 100px)   {
+    
+    
+    .lado-esquerdo h1 {
+        color: red;
+        margin-left: 20px;
+        text-align: center;  
+    }
+    
+    .lado-esquerdo p {
+        color: black;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .input {
+        margin-left: 10px;
+    }
+    
+    .cep {
+        border: none;
+        border-bottom: 1px gray solid;
+        width: 200px;
+        padding: 5px;
+        margin-left: 50px;
+    }
+
+    .btn {
+        background: red;
+        border: red solid;
+        border-radius: 20px;
+        width: 200px;
+        padding: 5px;
+        margin-left: 65px; 
+        text-align: center;
+    }
+
+    .btn-busca {
+        background: red;
+        border: red solid;
+        border-radius: 20px;
+        width: 200px;
+        padding: 5px;
+        margin-left: 65px; 
+        text-align: center;
+    }
+    
+    .button{
+        margin-top: 10px;
+    }
+
+    .resultado {
+        margin-top: 50px;
+        width: 350px;
+        height: 400px;
+        text-align: center;
+    }
+}
+
+/* Para tablet - no meu caso Ipad Air.*/
+@media only screen and (max-width: 1024px) and (min-width: 601px) {
+    
+    .lado-esquerdo h1 {
+        color: red;
+        margin-left: 20px;
+        text-align: center;  
+    }
+    
+    .lado-esquerdo p {
+        color: black;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .input {
+        margin-left: 10px;
+    }
+    
+    .cep {
+        border: none;
+        border-bottom: 1px gray solid;
+        width: 500px;
+        padding: 5px;
+        margin-left: 120px;
+    }
+    .btn {
+        background: red;
+        border: red solid;
+        border-radius: 20px;
+        width: 200px;
+        padding: 5px;
+        margin-left: 270px; 
+        text-align: center;  
+    }
+    .btn-busca {
+        background: red;
+        border: red solid;
+        border-radius: 20px;
+        width: 200px;
+        padding: 5px;  
+        margin-left: 230px;
+        margin-top: 30px;
+       
+    }
+    .button{
+        margin-top: 10px;
+    }
+
+    .resultado {
+        margin-top: 20px;
+        width: 700px;
+        height: 400px;
+        margin-left: 15px;
+        text-align: center;
+    }
+}
+
+/* Para notebook e desktop*/
+@media only screen and (min-width: 1024px) {
+
+    .app {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .lado-esquerdo h1 {
+        color: red;
+        margin-left: 20px; 
+    }
+    
+    .lado-esquerdo p {
+        color: black;
+        padding: 20px;
+    }
+    
+    .input {
+        margin-left: 10px;
+    }
+    
+    .cep {
+        border: none;
+        border-bottom: 1px gray solid;
+        width: 500px;
+        padding: 5px;
+    }
+
+    #bairro {
+        color: red;
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    #cidade {
+        margin-top: 30px;
+    }
+    
+    #uf {
+        margin-top: 30px;
+    }
+
+    #cep {
+        margin-top: 30px;
+    }
+
+    #logradouro {
+        margin-top: 30px;
+    }
+
+    .btn {
+        background: red;
+        border: red solid;
+        border-radius: 20px;
+        width: 200px;
+        padding: 5px;
+        cursor: pointer;
+        outline: none;
+        text-align: center;
+    }
+
+    .btn-busca {
+        margin-top: 30px;
+        background: red;
+        border: red solid;
+        border-radius: 20px;
+        width: 200px;
+        padding: 5px;
+        cursor: pointer;
+        outline: none;
+        text-align: center;
+        margin-left: 270px;
+        position: fixed;
+    }
+    
+    
+    .button{
+        margin-top: 10px;
+    }
+
+    .resultado {
+        margin-top: 20px;
+        width: 750px;
+        height: 400px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
